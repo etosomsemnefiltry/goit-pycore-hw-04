@@ -31,5 +31,5 @@ def total_salary(path:str):
 
     return (total, total/iteration)
     
-total, average = total_salary("devs2.txt")
-print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")
+total, average = total_salary("task_1/devs.txt")
+print(f"\nЗагальна сума заробітної плати: {total}, Середня заробітна плата: {average}\n")
